@@ -27,28 +27,27 @@ const LogoSlide = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
+  padding: 1rem;
+
   img {
-    height: 70px;
-    max-width: 200px;
+    max-height: 60px;
+    width: 100%;
+    max-width: 180px;
     object-fit: contain;
     filter: grayscale(100%);
     transition: all 0.3s ease-in-out;
 
     &:hover {
       filter: grayscale(0%);
-      transform: scale(1.1);
-    }
-
-    @media (max-width: 768px) {
-      height: 55px;
-    }
-
-    @media (max-width: 480px) {
-      height: 45px;
+      transform: scale(1.05);
     }
   }
+
+  @media (max-width: 480px) {
+    padding: 0.5rem;
+  }
 `;
+
 
 const InfoSection = styled.div`
   text-align: center;
