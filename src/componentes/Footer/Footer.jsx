@@ -92,7 +92,7 @@ const CopyrightSection = styled.div`
   text-align: center;
   font-size: 1rem;
   color: #7f8c8d;
-  
+  padding-top: 10px;
   position: absolute;
   bottom: 0;
   width: 100%;
