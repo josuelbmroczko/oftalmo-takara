@@ -118,12 +118,13 @@ export default function Header() {
     <HeaderContainer>
       <Logo>Clínica Takara</Logo>
       <Nav className={menuActive ? 'active' : ''}>
-        <Link href="#sobre">Sobre</Link>
-        <Link href="#servicos">Serviços</Link>
-        <Link href="#depoimentos">Depoimentos</Link>
-        <Link href="#galeria">Galeria</Link>
-        <Link href="#contato">Contato</Link>
-      </Nav>
+  <Link href="#sobre" onClick={() => setMenuActive(false)}>Sobre</Link>
+  <Link href="#servicos" onClick={() => setMenuActive(false)}>Serviços</Link>
+  <Link href="#depoimentos" onClick={() => setMenuActive(false)}>Depoimentos</Link>
+  <Link href="#galeria" onClick={() => setMenuActive(false)}>Galeria</Link>
+  <Link href="#contato" onClick={() => setMenuActive(false)}>Contato</Link>
+</Nav>
+
       <BurgerMenu onClick={toggleMenu} className={menuActive ? 'active' : ''}>
         <div />
         <div />
