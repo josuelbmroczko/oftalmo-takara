@@ -4,7 +4,7 @@ import styled from "styled-components";
 // Estilização principal
 const Section = styled.section`
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #ecf0f3, #f7f9fb);
+  background: linear-gradient(135deg, #FFC928, #f7f9fb);
   text-align: center;
 `;
 
@@ -100,9 +100,8 @@ const reviews = [
     name: "Carlos Mendes",
     initials: "CM",
     date: "Fevereiro de 2024",
-    rating: 4,
-    text: "Ótimo atendimento! Apenas acho que o tempo de espera poderia ser um pouco menor.",
-  },
+    rating: 5,
+    text: "Ótimo atendimento! irei retornar sempre",  },
 ];
 
 // Componente principal

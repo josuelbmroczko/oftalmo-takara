@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Section = styled.section`
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  background: linear-gradient(135deg,#ffc928da, #ffffff);
 `;
 
 const Title = styled.h3`
@@ -60,7 +60,7 @@ export default function Servicos() {
             Avaliação completa da saúde ocular, com equipamentos de última geração.
           </CardText>
         </Card>
-        <Card>
+       {/* <Card>
           <CardTitle>Cirurgia de Catarata</CardTitle>
           <CardText>
             Procedimentos modernos com lentes intraoculares de alta performance.
@@ -71,7 +71,7 @@ export default function Servicos() {
           <CardText>
             Correção a laser de miopia, hipermetropia e astigmatismo com técnicas avançadas.
           </CardText>
-        </Card>
+        </Card>*/}
       </Grid>
     </Section>
   );

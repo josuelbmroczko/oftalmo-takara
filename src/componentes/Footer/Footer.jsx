@@ -7,7 +7,7 @@ import styled from "styled-components";
 const FooterWrapper = styled.footer`
   width: 100%;
   padding: 6rem 0;
-  background-color: #f4f4f4;
+ 
   position: relative;
   border-top: 1px solid #e0e0e0;
 `;
@@ -97,7 +97,7 @@ const CopyrightSection = styled.div`
   bottom: 0;
   width: 100%;
   padding: 1rem;
-  background-color: #ffffff;
+  background-color: #FFC928;
   border-top: 1px solid #e0e0e0;
 
   p {

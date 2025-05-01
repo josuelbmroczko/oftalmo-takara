@@ -4,7 +4,7 @@ import styled from "styled-components";
 // Seção principal
 const Section = styled.section`
   padding: 5rem 2rem;
-  background-color: #f9f9f9;
+  background-color: #ffc9287f;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@ const Text = styled.p`
   margin: 0 auto 1.5rem;
   font-size: 1.25rem;
   line-height: 1.8;
-  color: #7f8c8d;
+  color: #232727;
   font-family: 'Open Sans', sans-serif;
   padding: 0 1rem;
 

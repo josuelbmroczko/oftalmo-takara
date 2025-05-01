@@ -1,15 +1,15 @@
 import styled from "styled-components";
 import { useState } from "react";
-
+import LOGOCLINICA from './LOGOCLINICA.png'
 const HeaderContainer = styled.header`
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #FFC928;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,14 +22,15 @@ const HeaderContainer = styled.header`
 `;
 
 const Logo = styled.h1`
-  font-size: 1.8rem;
+ 
   font-weight: bold;
-  color: #064273;
+  color: #022038;
   text-transform: uppercase;
-  letter-spacing: 2px;
+ 
 
-  @media (max-width: 768px) {
-    font-size: 1.5rem;
+ 
+  img{
+    width: 200px;
   }
 `;
 
@@ -116,7 +117,7 @@ export default function Header() {
 
   return (
     <HeaderContainer>
-      <Logo>Clínica Takara</Logo>
+      <Logo><img src={LOGOCLINICA} alt="" /></Logo>
       <Nav className={menuActive ? 'active' : ''}>
   <Link href="#sobre" onClick={() => setMenuActive(false)}>Sobre</Link>
   <Link href="#servicos" onClick={() => setMenuActive(false)}>Serviços</Link>

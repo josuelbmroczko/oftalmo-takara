@@ -9,6 +9,7 @@ import Depoimentos from './componentes/Depoimentos/Depoimentos';
 import Galeria from './componentes/Galeria/Galeria';
 import Contato from './componentes/Contato/Contato';
 import Footer from './componentes/Footer/Footer';
+ 
 
 function App() {
   return (

@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Section = styled.section`
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #f9f9f9, #e0e7ff);
+  
   text-align: center;
 
   @media (max-width: 768px) {
