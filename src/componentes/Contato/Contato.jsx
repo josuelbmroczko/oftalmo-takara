@@ -2,7 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import { FaPhoneAlt } from "react-icons/fa";
-
+import { FaInstagram } from "react-icons/fa";
 const Section = styled.section`
   padding: 5rem 2rem;
   
@@ -199,6 +199,10 @@ export default function Contato() {
         <PhoneItem href="tel:+551148286908">
           <FaPhoneAlt /> Consultório Ribeirão Pires: (11) 4828-6908
         </PhoneItem>
+        <PhoneItem href="https://www.instagram.com/clinicatakara/" target="_blank" rel="noopener noreferrer">
+  <FaInstagram /> Siga no Instagram: @clinicatakara
+</PhoneItem>
+
       </ContactInfo>
     </Section>
   );
