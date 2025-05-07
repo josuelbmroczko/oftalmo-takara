@@ -9,6 +9,7 @@ import Depoimentos from './componentes/Depoimentos/Depoimentos';
 import Galeria from './componentes/Galeria/Galeria';
 import Contato from './componentes/Contato/Contato';
 import Footer from './componentes/Footer/Footer';
+import WhatsappButton from './componentes/WhatsappButton';
  
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Header /> {/* Header fixo com navegação */}
       <Hero /> {/* Seção Hero com imagem e chamada */}
       <Sobre /> 
+      <WhatsappButton />
       <Servicos /> {/* Seção com os serviços oferecidos */}
       <Depoimentos /> {/* Depoimentos de pacientes */}
       <Galeria /> {/* Galeria de imagens do consultório */}
