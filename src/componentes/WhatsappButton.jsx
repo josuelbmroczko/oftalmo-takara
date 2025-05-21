@@ -39,13 +39,13 @@ const WhatsappButtons = () => {
   const contatos = [
     {
       label: 'Ribeirão Pires',
-      number: '551140661317',
-      message: 'Olá! Gostaria de falar com Ribeirão Pires.'
+      number: '551148286908',
+      message: 'Olá! Vim pelo site.'
     },
     {
       label: 'Diadema',
-      number: '5511987654321',
-      message: 'Olá! Gostaria de falar com Diadema.'
+      number: '551140661317',
+      message: 'Olá! Vim pelo site.'
     }
   ];
 
