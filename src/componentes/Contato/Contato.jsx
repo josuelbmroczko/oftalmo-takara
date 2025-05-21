@@ -168,7 +168,7 @@ export default function Contato() {
   return (
     <Section id="contato">
       <Title>Entre em Contato</Title>
-      <Form onSubmit={sendEmail}>
+      {/*<Form onSubmit={sendEmail}>
         <Input
           type="text"
           placeholder="Seu nome"
@@ -190,7 +190,7 @@ export default function Contato() {
           required
         />
         <Button type="submit">Enviar mensagem</Button>
-      </Form>
+      </Form>*/}
 
       <ContactInfo>
         <PhoneItem href="tel:+551140661317">
