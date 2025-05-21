@@ -7,6 +7,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import foto1 from '../../assets/fotos/foto1.webp'
+import foto2 from '../../assets/fotos/foto2.webp'
 
 const Section = styled.section`
   padding: 4rem 2rem;
@@ -48,9 +50,8 @@ const Img = styled.img`
 
 export default function Galeria() {
   const imagens = [
-    "https://lh3.googleusercontent.com/p/AF1QipPIAeqK2GCEBMW_fjmScrWfC9EpqL9Zm_LPHwAC=s680-w680-h510",
-    "https://lh3.googleusercontent.com/gps-cs-s/AB5caB95EG6odywiTv78jyZiwaMlwbgYmZUiPnHgMOnFcEa63YpYxzPomUqgbKwh95b3KEjGlVHHhGhtmnQnlNWUcm-vAFGSHRvSDGrRmn5JiYbnDTWI3UmsnExtJEMl2Svx7AD_6NoYyA=s680-w680-h510",
-    "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-5kWCQB0LgB97ER1-CnBzSj0kMECbvNpY8iCoQGFd9n-OVttTJ7qOs4c8VhX-B977JjvhyeKRl2ePzMLSY7J0GtGuemn1LyUJD5ygwFuzAdHaAsjVMofJ1jKesgcXWhpIlauEg=s680-w680-h510",
+    foto1,
+    foto2,
     // Adicione mais imagens aqui
   ];
 
